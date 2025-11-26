@@ -1,0 +1,87 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'calibri light';
+}
+#linea{
+  width: 100%;
+  height: 4px;
+  background: #086a87;
+}
+
+#header{
+  width: 100%;
+  height: 90px;
+  background: #0b2f3a;
+   position: Absolute; top: 20px; right 0px;
+}
+
+#header #centro1{
+  width: 800px;
+  height: auto; overflow: hidden;
+  border: 0px solid;
+  margin: left;
+   position: Absolute; top: 20px; right 0px;
+}
+
+#header #centro1 #logo{
+  width: 200px; border: 0px solid;
+  float: left;
+}
+
+
+#header #centro1 #logo h2,p{
+  color: #fff;
+}
+
+#header #centro1 #logo p{
+  margin-top: -20px;
+}
+#header #menu {
+  width: 580px;
+  height: auto; 
+  overflow: hidden;
+  border: 0px solid; 
+  float: right;
+  margin-top: 40px;
+   position: Absolute; top: 20px; right 0px;
+}
+
+#header #menu ul li{
+  display: inline-block;
+}
+
+#header #menu ul li a{
+  color:#04b4ae;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 7px 10px;
+  margin: 0px 3px;
+  transition: background 1s, color 1s;
+  background: #006699;
+}
+
+
+#header #menu ul li a:hover{
+  background: #0a2a29;
+}
+
+footer {
+ padding: 55px;
+    height: 55%; 
+    width: 100%;
+    }
+
+#pie{
+  width: 100%;
+  height: 260px;
+  background: #0b2f3a;  
+}
+
+#descripcion{
+  color: #04b4ae;
+  text-align: left;
+}
+#pie #centro-pie{
+  width: 800px;
+}
